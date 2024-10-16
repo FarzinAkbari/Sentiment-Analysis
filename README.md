@@ -17,26 +17,38 @@ pip install -r requirements.txt
     git clone git@github.com:farzinakbari/Sentiment-Analysis-Tweets.git
     cd Sentiment-Analysis-Tweets
     ```
- 2. Edit the `sentiment_analysis_ml.py` file to include your Twitter API credentials.
- 3. Run the sentiment analysis script:
+ 2. Edit the `scripts/sentiment_analysis_ml.py` file to include your Twitter API credentials.
+ 3. Run the data processing script to clean the tweets:
     ```bash
-    python sentiment_analysis_ml.py
+    python scripts/data_processing.py
     ```
+ 4. Run the model training script to train the machine learning model:
+    ```bash
+	python scripts/model_training.py
+    ```  
+
 ## Project Structure
 
-```
+```Sentiment-Analysis-Tweets/
 Sentiment-Analysis-Tweets/
 ├── data/
+│   └── tweets.csv
+│   └── cleaned_tweets.csv
 ├── scripts/
 │   └── sentiment_analysis_ml.py
+│   └── data_processing.py
+│   └── model_training.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
 
 ```
 * `data/`: Directory for storing data files.
 * `scripts/`: Directory for storing scripts.
 * `sentiment_analysis_ml.py`: Main script for performing sentiment analysis.
+* `data_processing.py`: Script for cleaning and processing data.
+* `model_training.py`: Script for training machine learning model.
 * `.gitignore`: File specifying which files should be ignored by Git.
 * `README.md`: Project documentation.
 * `requirements.txt`: List of required Python packages
