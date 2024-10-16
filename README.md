@@ -7,7 +7,7 @@ This project aims to perform sentiment analysis on tweets using Python. The anal
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary libraries.
 
 ```bash
-pip install tweepy textblob scikit-learn pandas
+pip install -r requirements.txt
 ```
  ## Usage 
 
