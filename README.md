@@ -104,13 +104,5 @@ We use the `TextBlob` library to perform sentiment analysis on tweets. `TextBlob
 ### Machine Learning Model
 
 We train a Naive Bayes classifier using the `scikit-learn` library to improve the accuracy of sentiment classification. The model is trained on a dataset of cleaned tweets and is evaluated using standard metrics such as accuracy and classification report.
-## Algorithm Explanation
 
-### Sentiment Analysis
-
-We use the `TextBlob` library to perform sentiment analysis on tweets. `TextBlob` uses a combination of machine learning techniques and lexicon-based approaches to determine the sentiment of a given text.
-
-### Machine Learning Model
-
-We train a Naive Bayes classifier using the `scikit-learn` library to improve the accuracy of sentiment classification. The model is trained on a dataset of cleaned tweets and is evaluated using standard metrics such as accuracy and classification report.
 
