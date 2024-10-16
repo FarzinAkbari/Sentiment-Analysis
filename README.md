@@ -1,4 +1,4 @@
-DD# Sentiment Analysis of Tweets
+# Sentiment Analysis of Tweets
 
 This project aims to perform sentiment analysis on tweets using Python. The analysis involves fetching tweets through the Twitter API, analyzing their sentiment using TextBlob, and employing machine learning models to enhance the accuracy of sentiment classification.
 
