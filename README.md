@@ -48,7 +48,7 @@ The script outputs the accuracy of the machine learning model and a classificati
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Contributions of any kind are appreciated!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/FarzinAkbari/Sentiment-Analysis-Tweets/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 * [Tweepy](https://www.tweepy.org/?form=MG0AV3)
